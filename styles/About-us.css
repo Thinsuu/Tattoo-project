@@ -1,0 +1,104 @@
+.top {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    Width: 1440px;
+    Height: 186px;
+    
+
+
+}
+
+.navtop {
+    display: flex;
+    height: 55px;
+    width: 850px;
+    color: rgba(255, 255, 255, 1);
+
+    
+    
+   
+}
+
+.link {
+    
+    
+    
+   
+}
+
+.about-us {
+    display: flex;
+    background-color: rgba(93, 118, 220, 1);
+    Width: 1440px;
+    Height: 532px;
+    
+    
+}
+
+
+.text {
+    font-family: 'Barlow', sans-serif;
+    Width: 1268px;
+    Height: 405px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.foot {
+    display: flex;
+    Width: 1440px;
+    Height: 308px;
+    background: rgba(0, 0, 0, 1);
+
+    
+}
+
+.rubriker {
+    font-family: 'Barlow', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.Contact-us {
+    display: flex;
+    
+    
+
+    
+
+}
+
+.input {
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    
+    
+    Width: 342px;
+    Height: 38;
+    
+
+}
+
+.textarea {
+    margin-left: 20px;
+    display: flex;
+    Width: 342px;
+    Height: 129px;
+    padding: 10px;
+   
+
+}
+
+.btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+   
+}
