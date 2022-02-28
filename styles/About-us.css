@@ -59,46 +59,44 @@
     
 }
 
-.rubriker {
+
+.Contact {
+    
     font-family: 'Barlow', sans-serif;
     color: rgba(255, 255, 255, 1);
-    text-align: center;
-}
-
-.Contact-us {
-    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     
     
-
-    
-
 }
 
 .input {
     display: flex;
-    margin-left: 20px;
-    padding: 10px;
-    
-    
     Width: 342px;
     Height: 38;
+    
     
 
 }
 
 .textarea {
-    margin-left: 20px;
     display: flex;
     Width: 342px;
     Height: 129px;
-    padding: 10px;
+   
    
 
 }
 
 .btn {
     display: flex;
-    margin-top: 20px;
-    justify-content: center;
+    margin-top: 10px;
+    background-color: lightgray;
+    
    
 }
+
+.btn:hover {
+    background-color: darkgrey;
+}
+
