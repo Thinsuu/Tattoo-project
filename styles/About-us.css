@@ -11,28 +11,19 @@
 }
 
 .nav {
-    width: 900px;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 36px;
-    font-weight: 400;
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color:rgba(255, 255, 255, 1);
 
-    
-    
+}
+
 
     
     
    
-}
 
-.link {
-    
-    
-    
-   
-}
 
 .about-us {
     display: flex;
