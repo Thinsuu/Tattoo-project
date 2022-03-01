@@ -1,28 +1,120 @@
 body {
   background-color: black;
+  overflow: auto;
+  @media {
+    orientation: portrait;
+  }
 }
 
 .overlay {
   position: relative;
   display: block;
-  width: 200%;
-  height: 25em;
+  width: 100%;
+  height: 50em;
   top: 7em;
   background-color: #5d76dc;
+  @media {
+    orientation: portrait;
+  }
 }
 
-/*
+nav {
+  width: 850px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    font-family: 'Barlow', sans-serif;
-    color: #FFFFF
-  }
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }*/
+  background-color: black;
+  font-family: "Barlow", sans-serif;
+  overflow: hidden;
+}
+
+.topnav a {
+  width: 850px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 400;
+}
+.column {
+  float: left;
+  width: 30%;
+  height: auto;
+}
+.row:after {
+  display: table;
+  clear: both;
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.main_txt {
+  margin-top: -10px;
+  align-content: left;
+  text-align: justify;
+  font-size: xx-large;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+img.tattoo {
+  height: 80%;
+  width: 130%;
+  padding: 5%;
+}
+
+.text {
+  font-family: "Barlow", sans-serif;
+  width: 1268px;
+  height: 405px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.foot {
+  display: flex;
+  width: 1440px;
+  height: 308px;
+  background: rgba(0, 0, 0, 1);
+}
+
+.Contact {
+  font-family: "Barlow", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  flex-direction: column;
+  margin-left: 2em;
+  margin-top: 10em;
+  font-size: 30px;
+}
+
+.input {
+  display: flex;
+  width: 342px;
+  height: 38;
+}
+
+.textarea {
+  display: flex;
+  width: 342px;
+  height: 129px;
+}
+
+.btn {
+  display: flex;
+  margin-top: 10px;
+  background-color: lightgray;
+  font-weight: 50px;
+}
+
+.btn:hover {
+  background-color: darkgrey;
+}
