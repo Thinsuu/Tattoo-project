@@ -1,0 +1,100 @@
+.top {
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+    Width: 1440px;
+    Height: 186px;
+    
+    
+
+
+}
+
+.nav {
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color:rgba(255, 255, 255, 1);
+
+}
+
+
+    
+    
+   
+
+
+.about-us {
+    display: flex;
+    background-color: rgba(93, 118, 220, 1);
+    Width: 1440px;
+    Height: 532px;
+    
+    
+}
+
+
+.text {
+    font-family: 'Barlow', sans-serif;
+    Width: 1268px;
+    Height: 405px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.foot {
+    display: flex;
+    Width: 1440px;
+    Height: 308px;
+    background: rgba(0, 0, 0, 1);
+
+    
+}
+
+
+.Contact {
+    
+    font-family: 'Barlow', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    flex-direction: column;
+    margin-left: 20px;
+    
+    
+}
+
+.input {
+    display: flex;
+    Width: 342px;
+    Height: 38;
+    
+    
+
+}
+
+.textarea {
+    display: flex;
+    Width: 342px;
+    Height: 129px;
+   
+   
+
+}
+
+.btn {
+    display: flex;
+    margin-top: 10px;
+    background-color: lightgray;
+    
+   
+}
+
+.btn:hover {
+    background-color: darkgrey;
+}
+
