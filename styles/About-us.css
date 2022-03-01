@@ -39,7 +39,9 @@
     color: #f2f2f2;
 }
     
-   
+.a:hover {
+    color: rgba(93, 118, 220, 1);
+}   
 
 
 .about-us {
