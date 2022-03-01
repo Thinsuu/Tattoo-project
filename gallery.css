@@ -53,8 +53,44 @@ footer{
     font-weight: 400;
 
   }
-.form-container{
-    color: white;
-    font-family: font-family: 'Barlow', sans-serif;
+
+
+.Contact {
     
+    font-family: 'Barlow', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    flex-direction: column;
+    margin-left: 20px;
+    
+    
+}
+
+.input {
+    display: flex;
+    Width: 342px;
+    Height: 38;
+    
+    
+
+}
+
+.textarea {
+    display: flex;
+    Width: 342px;
+    Height: 129px;
+   
+   
+
+}
+
+.btn {
+    display: flex;
+    margin-top: 10px;
+    background-color: lightgray;
+    
+   
+}
+
+.btn:hover {
+    background-color: darkgrey;
 }
