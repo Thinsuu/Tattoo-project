@@ -8,6 +8,14 @@ nav{
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    width: 900px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 400;
+
 }
 
 footer{
@@ -44,6 +52,7 @@ footer{
 
 .topnav a {
     width: 900px;
+    height: 186px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -94,3 +103,14 @@ footer{
     background-color: darkgrey;
 }
 
+.a:hover {
+    color: rgba(93, 118, 220, 1);
+}   
+
+.photo{
+    transition: 1s;
+}
+
+.photo:hover{
+    transform: scale(1.3    );
+}
