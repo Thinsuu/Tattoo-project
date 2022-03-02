@@ -1,10 +1,12 @@
 body {
     background-color: black;
+    width: 100%;
     
   }
 
 nav{
     width: 850px;
+    height: 186px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -35,8 +37,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 530px;
+    Width: 100%;
+    Height: 532px;
     top: 7em;
     background-color: #5d76dc;
    
@@ -47,6 +49,7 @@ footer{
     background-color:black;
     font-family: 'Barlow', sans-serif;
     overflow: hidden;
+    height: 186px;
   }
 
 
