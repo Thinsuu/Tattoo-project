@@ -8,6 +8,7 @@ nav{
     width: 850px;
     height: 186px;
     margin: auto;
+    margin-top: 63px;
     display: flex;
     justify-content: space-evenly;
     width: 900px;

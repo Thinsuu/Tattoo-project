@@ -15,10 +15,8 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    width: 900px;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 36px;
     font-weight: 400;
@@ -26,7 +24,7 @@
 }
 
 .nav {
-    width: 900px;
+    width: 850px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
